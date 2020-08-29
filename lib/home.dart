@@ -1,4 +1,4 @@
-import 'package:animations101/test.dart';
+import 'package:animations101/shapes.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -18,10 +18,10 @@ class HomePage extends StatelessWidget {
             children: [
               customButton(
                 context,
-                "One",
+                "Shapes",
                 () {
                   Navigator.push(context, MaterialPageRoute(builder: (context) {
-                    return TestView();
+                    return ShapesView();
                   }));
                 },
               ),
