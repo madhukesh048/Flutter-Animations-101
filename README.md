@@ -1,4 +1,4 @@
-# animations101
+# Flutter Animations 101
 
 A new Flutter project.
 
